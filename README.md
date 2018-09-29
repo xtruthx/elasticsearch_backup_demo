@@ -8,21 +8,21 @@ This Repository has the focus on some important curl API Requests and provides t
 
 ## Content
 
-[Repository](01_repository/README.md)
-[Snapshot](02_do_snapshots/README.md)
-[Restore](03_restore/README.md)
-[Progress](04_progress/README.md)
-[Curator](05_curator/README.md)
+1. [Repository](01_repository/README.md)
+2. [Snapshot](02_do_snapshots/README.md)
+3. [Restore](03_restore/README.md)
+4. [Progress](04_progress/README.md)
+5. [Curator](05_curator/README.md)
 
 ## References
 
-[Doing Snapsnhot and Restore Elasticsearch Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html)
-[Elastic Curator Documentation](https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html)
-[Elasticsearch Curator API](https://curator.readthedocs.io/en/latest/)
+* [Doing Snapsnhot and Restore Elasticsearch Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html)
+* [Elastic Curator Documentation](https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html)
+* [Elasticsearch Curator API](https://curator.readthedocs.io/en/latest/)
 
 ## Hint on "bug" in Curator version 5.5.4
 
-[#1234](https://github.com/elastic/curator/issues/1243)
+* [#1234](https://github.com/elastic/curator/issues/1243)
 
 In virtual environments like kvm, virtualbox, docker  (hits me in actual CentOS 7 and Debian 9) the "LC_ALL" is unset.
 Curator needs that locale to be set with a UTF-8 locale. 
